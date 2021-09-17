@@ -13,15 +13,6 @@ const Footer = () => (
           <img src={logoCtc} alt="logo Crack The Code" width="25" height="96" />
         </div>
         <div className="footer-column">
-          <h4>Nuestras Redes Sociales</h4>
-          <div className="social-links">
-            <a href="#"><img alt="icono instagram" src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png" /></a>
-            <a href="#"><img alt="icono facebook" src="https://img.icons8.com/ios-filled/50/000000/facebook--v1.png" /></a>
-            <a href="#"><img alt="icono linkedin" src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" /></a>
-            <a href="#"><img alt="icono tiktok" src="https://img.icons8.com/ios-filled/50/000000/tiktok--v1.png" /></a>
-          </div>
-        </div>
-        <div className="footer-column">
           <h4>¡MIRA LOS CURSOS PARA TU HIJO!</h4>
           <ul>
             <li><a href="#">Todos los Cursos</a></li>
@@ -39,7 +30,15 @@ const Footer = () => (
             <li><a href="#">Aprender con Minecraft</a></li>
           </ul>
         </div>
-
+        <div className="footer-column footer-column-social">
+          <h4>Nuestras Redes Sociales</h4>
+          <div className="social-links">
+            <a href="#"><img alt="icono instagram" src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png" /></a>
+            <a href="#"><img alt="icono facebook" src="https://img.icons8.com/ios-filled/50/000000/facebook--v1.png" /></a>
+            <a href="#"><img alt="icono linkedin" src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" /></a>
+            <a href="#"><img alt="icono tiktok" src="https://img.icons8.com/ios-filled/50/000000/tiktok--v1.png" /></a>
+          </div>
+        </div>
       </div>
     </div>
   </footer>
