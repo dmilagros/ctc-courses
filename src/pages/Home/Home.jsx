@@ -13,7 +13,8 @@ const Home = () => {
   const [loading, setLoading] = useState(false);
 
   const getCourses = async () => {
-    setLoading(true);
+    // setLoading(true); get default data
+    setLoading(false);
     const res = await getAllCourses();
     const dataFilter = res.data.filter((course) => parseInt(currency === 'PEN' ? course.amount_pen : course.amount_usd, 10) !== 0);
     setNewData(dataFilter);
